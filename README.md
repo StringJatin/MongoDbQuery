@@ -40,7 +40,7 @@ This field is created from the date added field.
 
 Stage 4
 -------------
-Now the date added trimmed is in string value, we would need to convert it into Date format to process it further. Hence, I have created a new field name “date_added_converted”. It will have date in Date format as per JS. It would be in format (%B %d, %Y). Here, B means month, d means date and Y means Year. 
+Now the date added trimmed is in string value, we would need to convert it into Date format to process it further. Hence, I have created a new field name “date_added_converted”. It will have date in Date format as per JS. It would be in format (%B %d, %Y). Here, B means month, d means day of the month and Y means Year. 
 The output would be like this 
 
 
