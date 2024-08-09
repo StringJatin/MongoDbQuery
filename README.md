@@ -26,7 +26,7 @@ Then we will also filter the data that has null in date_added field. So for that
 
 Stage 3
 -------------
-Now we will be adding a new field named, “date_added_trimmed”. It will contain a trimmed date string so that we can process the data efficiently. As previously I have seen date string that have unnecessary blank space.
+Now we will be adding a new field named, “date_added_trimmed”. It will contain a trimmed date string so that we can process the data efficiently. As previously I have seen date string that have unnecessary blank space. It will take date_added as input and will trim all the blank char " ".
 
 So now the date_added_trimmed will have something like this : 
 
